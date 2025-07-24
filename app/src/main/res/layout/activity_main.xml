@@ -54,21 +54,25 @@
         android:id="@+id/editTextText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Tiền boa"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="318dp" />
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <EditText
         android:id="@+id/editTextText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Tổng cộng"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="393dp" />
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
